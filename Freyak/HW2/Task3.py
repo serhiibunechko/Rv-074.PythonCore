@@ -1,0 +1,11 @@
+from tkinter import *
+root = Tk()
+root.geometry('600x600')
+c = Canvas(root, bg='white')
+c.pack(fill=BOTH, expand=1)
+c.create_oval(70, 70, 350, 350, fill='yellow')
+left_eye = c.create_oval(135, 125, 185, 175, fill='black')
+right_eye = c.create_oval(225, 125, 275, 175, fill='black')
+mouth = c.create_arc(125, 225, 275, 275, extent=-180, width=5)
+mouth_add = c.create_rectangle(120, 255, 280, 230, outline='yellow', fill="yellow")
+c.mainloop()
