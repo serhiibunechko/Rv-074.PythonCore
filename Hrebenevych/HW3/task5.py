@@ -2,6 +2,7 @@
 
 import math
 
+
 print('Simple program for calculating area the length of the hypotenuse.')
 
 
