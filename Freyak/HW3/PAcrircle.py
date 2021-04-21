@@ -5,7 +5,6 @@ if choise == 1:
     print("P = ", 2*math.pi*radius)
 if choise == 2:
     print("S = ", radius**2*math.pi)
-if choise < 1:
+if choise < 1 or choise > 2:
     print("Incorrect input")
-if choise > 2:
-    print("Incorrect input")
+

@@ -3,9 +3,9 @@ choise = float(input("Choose data you want to convert it to:\nPrint 1 fot kBytes
 if bytes < 0:
     print("error")
 if choise == 1:
-    print(bytes / 1000, "Kb")
+    print(bytes / 1024, "Kb")
 if choise == 2:
-    print(bytes / 1000000, "Mb")
+    print(bytes / 1048576, "Mb")
 if choise > 2 or choise < 1:
     print("error")
 
