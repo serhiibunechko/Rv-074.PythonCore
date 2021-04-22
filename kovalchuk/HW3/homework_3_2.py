@@ -1,0 +1,5 @@
+b = float(input())
+kb = (b * 0.00097656)
+mb = (b * 0.00000095367432)
+print("kb=", kb) 
+print("mb=", mb)
