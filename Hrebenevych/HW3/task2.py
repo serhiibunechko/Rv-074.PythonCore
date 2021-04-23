@@ -12,11 +12,11 @@ while True:
         print()
 
 
-kilobytes = size / 1000
+kilobytes = size / 1024
 
-if kilobytes >= 1000:
-    megabytes = (kilobytes // 1000)
-    kilobytes = kilobytes - (megabytes * 1000)
+if kilobytes >= 1024:
+    megabytes = (kilobytes // 1024)
+    kilobytes = kilobytes - (megabytes * 1024)
 else:
     megabytes = 0
 

@@ -8,7 +8,7 @@ print('Simple program for calculating area the length of the hypotenuse.')
 
 variables = {
         'first': None,
-        'two': None
+        'second': None
         }
 
 for i in variables:
@@ -25,5 +25,5 @@ for i in variables:
             continue
 
 
-print(f"The length of the hypotenuse is: {round(math.sqrt(variables['first']**2 + variables['two']**2), 3)}")
+print(f"The length of the hypotenuse is: {round(math.sqrt(variables['first']**2 + variables['second']**2), 3)}")
 
