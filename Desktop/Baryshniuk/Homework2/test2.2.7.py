@@ -1,0 +1,6 @@
+i1 = raw_input('What is your name?')
+i2 = raw_input ('How old are u?')
+i3 = raw_input('Where do u live?')
+print('Hello', i1)
+print('Your age is:', i2)
+print('You live in:', i3)
