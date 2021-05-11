@@ -1,3 +1,5 @@
+from math import sqrt
+
 # task 1
 
 a = 1
@@ -11,7 +13,7 @@ print(b)
 
 num_bytes = float(input("Enter number: "))
 
-kilobytes = num_bytes / 1000
+kilobytes = num_bytes / 1024
 megabytes = kilobytes / 1024
 
 print("In ",num_bytes,"bytes""\n" + str(kilobytes),"kilobytes""\n" + str(megabytes),"megabytes")
@@ -40,4 +42,4 @@ print("Perimetr: " + str(circle_perimetr) + "\n" + "Area: " + str(circle_area))
 side_first = int(input("Enter first side: "))
 side_second = int(input("Enter second side: "))
 
-print("The hypotenuse is equal to: " + str(side_first**2 + side_second**2))
+print("The hypotenuse is equal to: ", round(sqrt(side_first**2 + side_second**2),3))
